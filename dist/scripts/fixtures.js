@@ -10,6 +10,7 @@ var albumPicasso = {
       { name: 'Red', length: 268.45, audioUrl: './assets/music/red' },
       { name: 'Pink', length: 153.14, audioUrl: './assets/music/pink' },
       { name: 'Magenta', length: 374.22, audioUrl: './assets/music/magenta' }
+
     ]
 };
 
