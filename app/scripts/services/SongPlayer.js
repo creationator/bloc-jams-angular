@@ -13,7 +13,7 @@
            * @desc Stores album data information
            * @type {Object}
            */
-          var currentAAlbum = Fixtures.getAlbum();
+          var currentAlbum = Fixtures.getAlbum();
 
 
 
@@ -66,7 +66,7 @@
            * @param {Object} song
            */
           var getSongIndex = function(song) {
-            return currentAAlbum.songs.indexOf(song);
+            return currentAlbum.songs.indexOf(song);
           };
 
           /**
@@ -123,7 +123,7 @@
               SongPlayer.currentSong.playing = null;
 
             } else {
-                var song = currentAAlbum.songs[currentSongIndex];
+                var song = currentAlbum.songs[currentSongIndex];
                 setSong(song);
                 playSong(song);
 
@@ -149,7 +149,7 @@
               SongPlayer.currentSong.playing = null;
 
             } else {
-                var song = currentAAlbum.songs[currentSongIndex];
+                var song = currentAlbum.songs[currentSongIndex];
                 setSong(song);
                 playSong(song);
 
