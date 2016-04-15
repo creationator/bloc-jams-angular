@@ -21,10 +21,10 @@
          <div class="control-group currently-playing">
              <h2 class="song-name">{{ album.songPlayer.currentSong.name }}</h2>
              <h2 class="artist-song-mobile"></h2>
-             <h3 class="artist-name">{{ album.albumData.artist }}</h3>
+             <h3 class="artist-name">{{ songPlayer.albumData.artist }}</h3>
              <div class="seek-control">
-                 <seek-bar></seek-bar>
-                 <div class="current-time"></div>
+              <seek-bar value="{{ playerBar.songPlayer.currentTime }}" max="{{ playerBar.songPlayer.currentSong.duration }}" on-change="playerBar.songPlayer.setCurrentTime(value)"></seek-bar>
+             <div class="current-time">ddfsdfdfsd</div>
                  <div class="total-time"> {{ album.songPlayer.currentSong.length }}</div>
              </div>
          </div>
